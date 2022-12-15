@@ -1,4 +1,4 @@
-// package DataStructure.Sorting.BubbleSort;
+package DataStructure.Sorting.Bubblesort;
 
 import java.util.Arrays;
 
