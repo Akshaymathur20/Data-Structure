@@ -5,14 +5,10 @@
 import java.util.Arrays;
 
 public class Ques_268 {
-    public static void main(String[] args) {
-        int [] nums = { 4,0,1,2};
-        System.out.println(Arrays.toString(nums));
-        // Missing(nums);
-        System.out.println(Missing(nums));
-        
-    }
+   
     static int Missing(int[]nums ){
+        
+        int n = nums.length;
         int i = 0;
         while(i<nums.length){
             int correct = nums[i];
