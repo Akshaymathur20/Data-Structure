@@ -1,22 +1,15 @@
 // package DataStructure.Sorting.Cyclicsort.QuestionsLeetocde;
 
-//Missing number in the array. 
-
-import java.util.Arrays;
-
-public class Ques_268 {
+public class Ques_645 {
+    
     public static void main(String[] args) {
-        int [] nums = { 4,0,1,2};
-        System.out.println(Arrays.toString(nums));
-        // Missing(nums);
-        System.out.println(Missing(nums));
         
     }
-    static int Missing(int[]nums ){
+    public int[] setMismatch(int[]nums){
         int i = 0;
         while(i<nums.length){
-            int correct = nums[i];
-            if((nums[i]<nums.length)&&(nums[i] != nums[correct])){
+            int correct = nums[i]-1;
+            if((nums[i] != nums[correct])){
                 swap(nums,i,correct);
             }else{
                 i++;
@@ -27,14 +20,14 @@ public class Ques_268 {
         //search for first missing numbers 
         //case 1
         for (int j = 0; j < nums.length; j++) {
-            if(nums[j] != j){
-                return j;
+            if(nums[j] != j+1){ //because wer takin from 1 to n
+                return new int[]{ nums[j] , nums[i+1]};
             }
             
         }
 
         //case 2 \
-        return nums.length;
+        return new int[] { -1,-1};
     }
     static void swap(int[]nums  , int first, int second){
         int temp = nums[first];
@@ -42,5 +35,6 @@ public class Ques_268 {
         nums[second]=temp;
         
     }
+    
     
 }
