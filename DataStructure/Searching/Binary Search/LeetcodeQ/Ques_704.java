@@ -1,5 +1,7 @@
 // package Searching.Binary Search.LeetcodeQ;
 
+//Question link --> https://leetcode.com/problems/binary-search/
+
 public class Ques_704 {
     public int search(int[] nums, int target) {
         int  start = 0;

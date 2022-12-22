@@ -1,5 +1,9 @@
 // package Searching.Binary Search.LeetcodeQ;
 
+
+//Questionlink --> https://leetcode.com/problems/search-insert-position/
+
+
 public class Ques_35 {
     public int searchInsert(int[] nums, int target) {
         
