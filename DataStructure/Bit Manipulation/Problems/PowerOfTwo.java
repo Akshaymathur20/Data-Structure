@@ -18,12 +18,12 @@ public class PowerOfTwo {
     //this is the solution you have to put  in leetcode just remove static and put public 
      static boolean isPowerOfTwo(int n) {
        
-        if(n==1){
-            return true;
+        if(n==1){                    /*  n==1  it will return true */
+            return true; 
         }
-        if(n%2!=0 || n<=0){
-              return false;
+        if(n%2!=0 || n<=0){    
+              return false; 
         }
-        return isPowerOfTwo(n/2);
+        return isPowerOfTwo(n/2);     /*  if n =16  then 16/2=8 8/2=4 4/2=2 2/2 =1 */
     }
 }
