@@ -15,7 +15,7 @@ public class PowerOfTwo {
         
     }
 
-    
+    //this is the solution you have to put  in leetcode just remove static and put public 
      static boolean isPowerOfTwo(int n) {
        
         if(n==1){
