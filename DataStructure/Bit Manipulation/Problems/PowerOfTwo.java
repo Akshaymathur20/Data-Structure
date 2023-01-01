@@ -27,3 +27,7 @@ public class PowerOfTwo {
         return isPowerOfTwo(n/2);     /*  if n =16  then 16/2=8 8/2=4 4/2=2 2/2 =1 */
     }
 }
+
+
+// similar question
+// https://leetcode.com/problems/power-of-three/
