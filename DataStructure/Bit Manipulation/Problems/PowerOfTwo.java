@@ -28,6 +28,7 @@ public class PowerOfTwo {
     }
 }
 
-
+ 
 // similar question
 // https://leetcode.com/problems/power-of-three/
+// https://leetcode.com/problems/power-of-four/
