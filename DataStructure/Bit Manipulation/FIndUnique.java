@@ -15,10 +15,8 @@ public class FIndUnique {
         for(int n:arr){
            unique= unique ^ n;
          
-            
         }
         return unique;
-
     }
     // Timc Complexity -- O(n);
 }
