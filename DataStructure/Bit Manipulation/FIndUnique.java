@@ -10,10 +10,12 @@ public class FIndUnique {
 
     static int Unique(int[]arr){
 
-        int unique = 0;
+        int unique =0;
 
         for(int n:arr){
-            unique= unique ^n;
+           unique= unique ^ n;
+         
+            
         }
         return unique;
 
