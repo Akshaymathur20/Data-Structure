@@ -16,3 +16,6 @@ public class Leetcode {
      }
 
 }
+
+// question link 
+// https://leetcode.com/problems/single-number/
