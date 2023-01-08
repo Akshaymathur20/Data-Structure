@@ -15,8 +15,8 @@ public class Leetcode {
         }
         return n;
      }
-
 }
+
 
 // question link 
 // https://leetcode.com/problems/single-number/
