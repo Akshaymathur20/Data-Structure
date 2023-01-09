@@ -11,9 +11,10 @@ public class Leetcode {
           int n= 0;
 
         for(int i :num){
+            
             n = n^i;
         }
-        return n;
+        return n; 
      }
 }
 
